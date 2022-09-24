@@ -1,0 +1,28 @@
+{
+    "name": "at_js_ht1",
+    "version": "0.1.0",
+    "description": "The homework for test automation with WDIO",
+    "private": true,
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/barbylka/at-js-ht1.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/barbylka/at-js-ht1/issues"
+    },
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.25.0",
+        "@wdio/cli": "^7.25.0",
+        "@wdio/local-runner": "^7.25.0",
+        "@wdio/mocha-framework": "^7.25.0",
+        "@wdio/spec-reporter": "^7.25.0",
+        "chromedriver": "^105.0.1",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}
