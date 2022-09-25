@@ -37,6 +37,10 @@ Each step of the scenario is the "it" block, so it's easy to catch and find out 
 4. Make sure you're in the root of this repo
 5. Run with `npm run wdio`
 
+## Generate the report
+1. Make sure that you have [Allure Commandline](https://www.npmjs.com/package/allure-commandline) else install it with `npm install -g allure-commandline --save-dev` . **Note!** You need Java8 and "JAVA_HOME" Environment Variable.
+2. Run `npm run allure`
+
 ## The folder structure
 
 - In **utils/common.actions.js** there is the class with simple actions that can be used in every page

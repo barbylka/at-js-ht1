@@ -4,7 +4,8 @@
     "description": "The homework for test automation with WDIO",
     "private": true,
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "wdio": "wdio run wdio.conf.js",
+        "allure": "allure generate allure-results --clean && allure open allure-report"
     },
     "repository": {
         "type": "git",
