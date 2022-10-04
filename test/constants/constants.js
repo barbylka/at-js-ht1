@@ -1,5 +1,5 @@
 const jobTitleData = {
-  TITLE: 'InternIr',
+  TITLE: 'Intern',
   DESCRIPTION: 'Test description',
   NOTE: 'Test Note',
   NEW_DESCRIPTION: 'New description',
